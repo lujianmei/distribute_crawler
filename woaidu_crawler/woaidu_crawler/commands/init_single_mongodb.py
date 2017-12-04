@@ -29,6 +29,11 @@
 """
 
 import types
+# try:
+#     from pymongo.connection import Connection
+# except ImportError as e:
+#     from pymongo import MongoClient as Connection
+# from pymongo.connection import MongoClient
 from pymongo.connection import MongoClient
 from pymongo import ASCENDING, DESCENDING
 
